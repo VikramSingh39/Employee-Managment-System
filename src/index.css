@@ -1,0 +1,12 @@
+
+
+    #tasklist::-webkit-scrollbar{
+     display: none;
+    }
+    body{
+        background-color: black;
+
+    }
+    *{
+        color: white;
+    }
