@@ -1,8 +1,17 @@
+localStorage.clear()
+
 const employee = [
       {
         id: 1,
         email: "employee1@example.com",
         password: "124",
+        firstName: "Arjun",
+        taskNumbers: {
+          active: 1,
+          newTask: 1,
+          completed: 1,
+          failed: 1
+        },
         tasks: [
           {
             title: "Design login page",
@@ -40,6 +49,13 @@ const employee = [
         id: 2,
         email: "employee2@example.com",
         password: "124",
+        firstName: "Priya",
+        taskNumbers: {
+          active: 2,
+          newTask: 2,
+          completed: 1,
+          failed: 0
+        },
         tasks: [
           {
             title: "Update employee table",
@@ -87,6 +103,13 @@ const employee = [
         id: 3,
         email: "employee3@example.com",
         password: "124",
+        firstName: "Ravi",
+        taskNumbers: {
+          active: 1,
+          newTask: 1,
+          completed: 1,
+          failed: 0
+        },
         tasks: [
           {
             title: "Create dashboard view",
@@ -124,6 +147,13 @@ const employee = [
         id: 4,
         email: "employee4@example.com",
         password: "124",
+        firstName: "Anjali",
+        taskNumbers: {
+          active: 1,
+          newTask: 1,
+          completed: 1,
+          failed: 1
+        },
         tasks: [
           {
             title: "Build profile component",
@@ -161,6 +191,13 @@ const employee = [
         id: 5,
         email: "employee5@example.com",
         password: "124",
+        firstName: "Karan",
+        taskNumbers: {
+          active: 1,
+          newTask: 1,
+          completed: 1,
+          failed: 0
+        },
         tasks: [
           {
             title: "Integrate Stripe",
