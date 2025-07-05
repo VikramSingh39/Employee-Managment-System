@@ -1,10 +1,10 @@
-localStorage.clear()
+
 
 const employee = [
       {
         id: 1,
-        email: "employee1@example.com",
-        password: "124",
+        email: "emp1@me.com",
+        password: "123",
         firstName: "Arjun",
         taskNumbers: {
           active: 1,
@@ -47,8 +47,8 @@ const employee = [
       },
       {
         id: 2,
-        email: "employee2@example.com",
-        password: "124",
+        email: "emp2@me.com",
+        password: "123",
         firstName: "Priya",
         taskNumbers: {
           active: 2,
@@ -101,8 +101,8 @@ const employee = [
       },
       {
         id: 3,
-        email: "employee3@example.com",
-        password: "124",
+        email: "emp3@me.com",
+        password: "123",
         firstName: "Ravi",
         taskNumbers: {
           active: 1,
@@ -145,8 +145,8 @@ const employee = [
       },
       {
         id: 4,
-        email: "employee4@example.com",
-        password: "124",
+        email: "emp4@me.com",
+        password: "123",
         firstName: "Anjali",
         taskNumbers: {
           active: 1,
@@ -189,8 +189,8 @@ const employee = [
       },
       {
         id: 5,
-        email: "employee5@example.com",
-        password: "124",
+        email: "emp5@me.com",
+        password: "123",
         firstName: "Karan",
         taskNumbers: {
           active: 1,
@@ -235,8 +235,8 @@ const employee = [
 
 const admin = [{
       "id": 1,
-      "email": "admin@example.com",
-      "password": "124"
+      "email": "admin@me.com",
+      "password": "123"
     }]
 
 export const setLocalStorage = ()=>{

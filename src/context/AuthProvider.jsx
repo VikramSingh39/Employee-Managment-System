@@ -4,18 +4,18 @@ import { getLocalStorage, setLocalStorage } from '../utils/localStorage';
 export const AuthContext = createContext()
 
 export const AuthProvider = ({children})=>{
-      localStorage.clear()
+
       const [userData, setUserData] = useState(null)
       
       useEffect(()=>{
         setLocalStorage()
-         const {employee, admin} = getLocalStorage();
-         setUserData({employee, admin})
+         const {employee} = getLocalStorage();
+         setUserData({employee})
          
       }, [])
 
       return(
-            <AuthContext.Provider value={userData}>
+            <AuthContext.Provider value={[userData, setUserData]}>
                   {children}
             </AuthContext.Provider>
       )
